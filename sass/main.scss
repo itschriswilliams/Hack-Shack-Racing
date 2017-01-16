@@ -1,5 +1,5 @@
-// JumpRope Web
-// 2016
+// HSR
+// 2017
 
 @import "variables";
 @import "mixins";
@@ -85,6 +85,12 @@ a {
             .navbar-header {
                 padding: 0;
             }            
+            a {
+                color: #58595b;
+                &:hover {
+                    color: map-get($colours, "orange");
+                }
+            }
         }
     }
     margin-bottom: 0;
@@ -110,10 +116,12 @@ a {
     }
 
     .navbar-brand {
-        width: 175px;
+        width: 400px;
         font-weight: 700;
         svg {
             fill: white;
+            -webkit-filter: drop-shadow(2px 2px 20px #666);
+            filter: drop-shadow(2px 2px 20px #666);   
         }
         &:focus {
             outline: none;
@@ -136,28 +144,28 @@ a {
             position: inherit;
             &.darrowed {
                 & > a {
-                    border-bottom: 1px solid #929292;
+                    // border-bottom: 1px solid #929292;
                     &:after {
                         opacity: 1;
                     }
                 }                
             }
             a {
-                &:after {
-                    content: '';
-                    background: url(../img/svg/nav-darr.svg) no-repeat;
-                    width: 10px;
-                    height: 7px;
-                    position: absolute;
-                    right: 0;
-                    top: 22px;
-                    opacity: 0;
-                }
+                // &:after {
+                //     content: '';
+                //     background: url(../img/svg/nav-darr.svg) no-repeat;
+                //     width: 10px;
+                //     height: 7px;
+                //     position: absolute;
+                //     right: 0;
+                //     top: 22px;
+                //     opacity: 0;
+                // }
                 -webkit-transition: all .3s ease-in-out;
                 -moz-transition: all .3s ease-in-out;
                 transition: all .3s ease-in-out;
                 &:hover {
-                    color: rgba(white, 0.8);
+                    color: map-get($colours, "orange");
                     outline: none;
                     background-color: transparent;
                 }
@@ -251,15 +259,13 @@ a {
                     justify-content: center;
                     -ms-flex-pack: center;                      
                 }
-            &.hovered {
-                
+                &.hovered {                
                     -webkit-transition: all .3s ease-in-out;
                     -moz-transition: all .3s ease-in-out;
                     transition: all .3s ease-in-out;
                     height: auto;
                     opacity: 1;
-                
-            }
+                }
             }
             
         }
@@ -274,8 +280,17 @@ a {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
-            background-color: map-get($colours, "blue");
+            background-color: map-get($colours, "white");
             // border-bottom: 1px solid rgba(white, 0.3);
+            background: #fff;
+            .navbar-brand {
+                svg {
+                    fill: #58595b;
+                    -webkit-filter: none;
+                    filter: none;
+
+                }
+            }            
         }
 
     }
@@ -337,6 +352,14 @@ a {
                             // color: white;
                         }
                     }
+        .navbar-brand {
+            svg {
+                fill: #58595b;
+                -webkit-filter: none;
+                filter: none;
+
+            }
+        }                    
                 }
             }
         }        
@@ -348,7 +371,10 @@ a {
         background: #fff;
         .navbar-brand {
             svg {
-                fill: grey;
+                fill: #58595b;
+                -webkit-filter: none;
+                filter: none;
+
             }
         }
         .nav {
@@ -359,7 +385,7 @@ a {
                     -moz-transition: all .3s ease-in-out;
                     transition: all .3s ease-in-out;
                     &:hover {
-                        @extend .grey-text;
+                        @extend .orange-text;
                         outline: none;
                         background-color: transparent;
                     }
@@ -446,8 +472,10 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-repeat: no-repeat;
     &.home {
-        background-image: url(../img/banner/Homepage-Intro.jpg);        
+        background-image: url(../img/banner/hsr-bannerMain.jpg);
+        background-position: top right;
     }
     &.classroom-solutions {
         background-image: url(../img/banner/ClassroomSolutions-Intro.jpg);        
@@ -549,6 +577,11 @@ a {
         background-image: url(../img/banner/Gradebook-DistrictAdmin.jpg);
         @extend .white-text;
     }
+    &.loners {
+        background-image: url(../img/banner/hsr-banner-loners.jpg);
+        @extend .white-text;
+        @extend .bg-fixed;
+    }       
     &.partnering {
         background-image: url(../img/banner/Homepage-Partnering.jpg);
         @extend .white-text;
@@ -591,25 +624,25 @@ a {
         padding: 0;
         background-size: inherit;        
         @extend .white-text;        
-        background: #005d80;
-        background-image: linear-gradient(to bottom,  rgba(10, 94, 127,.85) 0%,rgba(2,36,65,.65) 100%); /* W3C */
+        // background: #005d80;
+        // background-image: linear-gradient(to bottom,  rgba(10, 94, 127,.85) 0%,rgba(2,36,65,.65) 100%); /* W3C */
         background-repeat: repeat;
         // background-attachment: fixed;        
         position: relative;
-        &:before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            opacity: .35;
-            background-image: url(../img/banner/Global-FooterSwatch.png);
-            background-repeat: repeat;
-            background-size: 55%;
-        }
+        // &:before {
+        //     content: '';
+        //     position: absolute;
+        //     width: 100%;
+        //     height: 100%;
+        //     top: 0;
+        //     left: 0;
+        //     bottom: 0;
+        //     right: 0;
+        //     opacity: .35;
+        //     background-image: url(../img/banner/Global-FooterSwatch.png);
+        //     background-repeat: repeat;
+        //     background-size: 55%;
+        // }
 
     }         
 }
@@ -1271,7 +1304,7 @@ footer {
             height: 0px;
             border-left: 5px solid transparent;
             border-right: 5px solid transparent;
-            border-bottom: 5px solid #00a7c0;
+            border-bottom: 5px solid map-get($colours, "orange");
             -webkit-transition: all .2s ease-in-out;
             -moz-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;            
@@ -1330,6 +1363,51 @@ footer {
             }            
         }
     }
+}
+
+#sponsor-logos {
+    .container {
+        .sponsor {
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            p {
+                vertical-align: middle;
+                margin: 0;
+            }
+            &.small {
+                min-height: 70px;
+            }
+        }
+    }
+}
+
+#events {
+    hr {
+        margin-top: inherit;
+        margin-bottom: inherit;
+        margin: 10px 0;
+    }
+    h5 {
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .month {
+        color: map-get($colours, "orange") !important;
+        font-weight: bold;
+    }
+    .date {
+        color: map-get($colours, "grey") !important;
+    }
+    .title {
+        color: map-get($colours, "grey") !important;
+    }
+
+}
+
+::selection {
+    background-color: map-get($colours, "orange") !important;
+    color: white !important;
 }
 
 ::-moz-selection {

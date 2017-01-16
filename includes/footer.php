@@ -1,58 +1,53 @@
     <!-- Footer -->
     <footer id="footer">
-        <div class="backgrounded footer">
+        <div class="backgrounded footer brandblue">
             <div class="container">
                 <div class="row padded med">
                     <div class="col-sm-12 text-right">
-                        <h6><a href="#page-top" class="btt turq-text uppercase">Back to Top</a></h6>
+                        <h6><a href="#page-top" class="btt white-text uppercase">Back to Top</a></h6>
                     </div>
                 </div>
                 <div class="row padded-bottom">
-                    <div class="col-xs-2 col-sm-1">
-                        <img src="img/sub/JMP-RopeGraphic.svg" alt="">
-                    </div>
                     <div class="col-xs-5 col-sm-2">
-                        <h5 class="white-text uppercase">Social</h5>
-                        <ul class="footernav">
-                            <li><a href="https://twitter.com/jumpropers" target="_blank">Twitter</a></li>
-                            <li><a href="https://www.facebook.com/JumpRopeTechnology/" target="_blank">Facebook</a></li>
-                            <li><a href="#">Google +</a></li>
-                            <li><a href="https://www.linkedin.com/company/jumprope-inc?trk=hb_tab_compy_id_2310930" target="_blank">LinkedIn</a></li>
-                        </ul>
+                        <img src="img/template/HSR-Logo-White.svg" alt="">
                     </div>
-                    <div class="col-xs-5 col-sm-2">
-                        <h5 class="white-text uppercase">Company</h5>
+                    <div class="col-xs-1 visible-xs visible-xs-block">&nbsp;</div>
+                    <div class="col-xs-6 col-sm-2 col-xs-offfset-3 col-sm-offset-1">
+                        <h5 class="white-text uppercase">Get Social</h5>
                         <ul class="footernav">
-                            <li><a href="index.php?page=privacy">Privacy Policy</a></li>
-                            <li><a href="index.php?page=security">Security & Availability</a></li>
-                            <li><a href="#">Made in NYC</a></li>
+                            <li><a href="https://www.facebook.com/HackShackRacing/" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/HackShackRacing/" target="_blank">Instagram</a></li>                            
                         </ul>
                     </div>
                     <div class="col-xs-12 mobile-v-spacer"></div>
                     <div class="col-xs-10 col-sm-4 col-xs-offset-2 col-sm-offset-0">
-                        <h5 class="white-text uppercase">The Notebook</h5>
-                        <p>Helpful tips and news from JumpRope delivered straight to your inbox.</p>
+                        <h5 class="white-text uppercase">Get on The List</h5>
+                        <p>KOH Updates? Events? Climb aboard the Hack Shack Train.</p>
                         <p>
-                            <form id="NotebookForm" action="#">
+                            <form id="NotebookForm" method="POST" action="https://script.google.com/macros/s/AKfycbw0sTd1UCl3eb-I9cRpXtZNDChToaa1UG_3mBdLURjgia8mpA/exec">
                             <div class="form-group">
-                            <input type="email" class="form-control" placeholder="ENTER EMAIL HERE">
+                            <input id="email" name="email" type="email" class="form-control" placeholder="ENTER EMAIL HERE">
                             <br>
                             <input type="submit" class="btn white" value="Sign Up">
                             </div>
                             </form>
+                            <div style="display:none;" id="thankyou_message">
+                            <p class="orange-text">Thanks for Signing Up.</p>
+                            </div>
                         </p>                        
                     </div>
                     <div class="col-xs-12 mobile-v-spacer"></div>
                     <div class="col-xs-10 col-sm-3 col-xs-offset-2 col-sm-offset-0">
                         <h5 class="white-text uppercase">Get in Touch</h5>
-                        <p>Connect with a seasoned expert on standards-based grading.</p>
-                        <a href="#" class="btn turq">Contact Us</a>                        
+                        <p>Curious? Need Advice? Talk to us.<br /><br />
+                        Call Us: <a class="orange-text" href="tel:2039801355">(203) 980-1355</a></p>
+                        <a href="mailto:john@hackshackracing.com?subject=Question for Hack Shack Racing&body=I found this link from your website, and I have a question." class="btn white">Send an Email</a>
                     </div>                    
 
                 </div>
                 <div class="row padded-bottom tiny">
                     <div class="col-sm-12 text-center">
-                        <p class="copyright"><a href="index.php?page=terms">Terms & Conditions</a> &nbsp; Copyright &copy; <script>document.write(new Date().getFullYear())</script> JumpRope Inc.</p>
+                        <p class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Hack Shack Racing, L.L.C.</p>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>JumpRope</title>
+    <title>Hack Shack Racing</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,32 +28,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<?php $page = htmlspecialchars($_GET["page"]);
-    if ($page == '') {
-        $page = "home";
-    }
-?>
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<?php include '_includes/svg-defs.svg' ?>
 
-
-<?php
-    $v2 = array("blog-detail", "privacy", "security", "terms");
-
-    if(in_array($page, $v2)){
-        include ('includes/header2.php');
-    }
-    else{
-        include ('includes/header.php');
-    }
-?>
-
-<?php include ("pages/$page.php"); ?>
-
+<?php include ('includes/header.php'); ?>
+<?php include ('pages/home.php'); ?>
 <?php include 'includes/footer.php' ?>  
 
 
@@ -68,12 +49,12 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/fancybox.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
     <script src="js/production.min.js"></script>
+
+    <!-- Custom Form Submission JavaScript -->
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
 </body>
 

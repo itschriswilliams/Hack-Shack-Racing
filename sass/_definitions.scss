@@ -239,7 +239,17 @@ h1 {
             @extend .turq-text;
             @extend .white;
         }
-    }        
+    }    
+    &.orange {
+        @extend .orange-border;
+        @extend .orange-text;
+        background: transparent;
+        &:hover,
+        &:focus {
+            color: white;
+            background: map-get($colours, "orange");
+        }
+    }            
 }
 .animate {
     -webkit-transition: all .3s linear;

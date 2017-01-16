@@ -1,5 +1,5 @@
 <!-- Intro Banner -->
-<section class="intro home">
+<section id="page-top" class="intro home">
     <div class="intro-body">
         <div class="container">
             <div class="row">
@@ -7,10 +7,9 @@
                     <br>
                     <br>
                     <br>
-                    <h1>Building a better education, from the gradebook up.</h1>
-                    <h3 class="lato">
-                        JumpRope is more than a software company. We’re experts in standards-based grading and its practical implementation.
-                    </h3>
+                    <h1></h1>
+                    <h3 class="lato"></h3>
+
                     <!--      <a href="#about" class="btn btn-circle page-scroll"> <i class="fa fa-angle-double-down animated"></i>
                 </a>
                 -->
@@ -20,164 +19,239 @@
 </div>
 </section>
 
-<!-- Gradebook Plug Section -->
-<section id="gradebook" class="text-left">
-<div class="backgrounded gradebook">
-    <div class="container">
-        <div class="col-md-10">
-            <h1>Deep roots in standards-based education.</h1>
-            <h4>
-                Steeped in a profound knowledge of standards-based education, JumpRope’s gradebook does more than just track learning goals. It blends technology and instruction to elevate teacher practice and engage students.
-            </h4>
+<!-- Home-Logos Section -->
+<section id="sponsor-logos" class="padded less beige">
+<div class="container">
+    <div class="row text-xs-center text-sm-center">
+        <div class="col-xs-12 text-center">
             <br>
-            <br>
-            <a class="btn" href="#">Explore the Gradebook</a>
+            <h3 class="questrial orange-text" align="center">
+                A special thanks to all our sponsors, supporters, and friends.
+            </h3>
+        </div>    
+        <div class="sponsor col-xs-6 col-sm-3 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/HeavyMetalConcepts.png" alt=""></p>
         </div>
+        <div class="sponsor col-xs-6 col-sm-3 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/Raceline.png" alt=""></p>
+        </div>
+        <div class="sponsor col-xs-6 col-sm-3 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/Nitto.png" alt=""></p>
+        </div>
+        <div class="sponsor col-xs-6 col-sm-3 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/ECGS.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/TorqMasters.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/JWSpeaker.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/Corbeau.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/CustomSplice.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/RockKrawler.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/Factor55.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/TomWoods.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/BrownDog.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/Clayton.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-4 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/Teraflex.png" alt=""></p>
+        </div>
+        <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/RuggedRadios.png" alt=""></p>
+        </div>
+
+        <div class="col-xs-12 text-center">
+            <br>
+            <a class="btn orange" href="mailto:john@hackshackracing.com?subject=Partnering with Hack Shack Racing&body=I found this link from your website, and I'm interested in partering with Hack Shack Racing." target="_blank">Partner With Us</a>
+        </div>
+
     </div>
 </div>
 </section>
 
 <!-- Partnering Section -->
-<section id="partnering" class="text-left">
-<div class="backgrounded partnering">
+<section id="about" class="text-left">
+<div class="backgrounded loners">
     <div class="container">
         <div class="col-md-10">
-            <h1>Partnering with you to effect transformational change.</h1>
+            <h1>One Team. One Rig. Endless Opportunity.</h1>
             <h4>
-                It’s difficult to enact transformational change alone – JumpRope partners with you to make sure implementation is successful at all levels. Our site training, online courses, and expert customer service makes the transition to standards-based grading fluid not frustrating. We also provide consulting on everything from professional development, teacher practice, core philosophy, and family engagement. You get the benefit of our expertise every step of the way.
+                It started with two boys and a Jeep. Little did they know, it would escalate to a team of over 20 people, thousands of miles across America, and the race of a lifetime. 
             </h4>
-            <br>
-            <br>
-            <a class="btn" href="#">Partner with Jumprope</a>
+            <br />
+            <a class="btn white" href="http://www.facebook.com/HackShackRacing" target="_blank">Follow Our Journey on Facebook</a>
+
         </div>
     </div>
 </div>
 </section>
 
-<!-- Carousel
-    ================================================== -->
-<div id="marketing" class="carousel slide padded-top" data-ride="carousel">
-
-<div class="carousel-inner" role="listbox">
-    <div class="item active">
-        <div class="container">
-            <div class="carousel-content">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <h3 class="ltgrey-text">
-                            &ldquo;At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment.&rdquo;
-                        </h3>
-                        <br>
-                        <h4>
-                            <span class="test-name uppercase">ANDREW KASPRISIN</span>
-                            <small class="test-title lato">Teacher, Essex Middle School</small>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="item">
-        <div class="container">
-            <div class="carousel-content">
-                <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <h3 class="ltgrey-text">
-                            &ldquo;At first I thought standards-based grading would be overwhelming, with me drowning in student work and standards, but it has made me a much more efficient grader since I now know exactly what to look for on an assessment.&rdquo;
-                        </h3>
-                        <br>
-                        <h4>
-                            <span class="test-name uppercase">ALFRED NORTH</span>
-                            <small class="test-title lato">Teacher, Southeastern Middle School</small>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<a class="left carousel-control" href="#marketing" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-</a>
-<a class="right carousel-control" href="#marketing" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-</a>
-</div>
-<!-- /.carousel -->
-
-<!-- Marketing Section -->
-<section id="marketing-whitepapers" class="text-center">
-<div class="backgrounded beige ltgrey-text">
-    <div class="container white ltgrey-border">
+<!-- Events Section -->
+<section id="events" class="text-left">
+<div class="beige padded">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-10 col-sm-offset-1">
-                <br>
-                <div class="row">
-                    <div class="col-sm-12 turq line">
-                        <br></div>
-                    <div class="col-sm-12 margined-top tiny">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <a href="#">
-                                            <svg class="icon whitepaper" viewBox="0 0 40 40">
-                                                <use xlink:href="#icon-whitepaper" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-9 text-left">
-                                    <a href="#">
-                                        <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
-                                        <small class="uppercase arrowed rarr-blue">Get The Whitepaper</small>
-                                    </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <a href="#">
-                                            <svg class="icon whitepaper" viewBox="0 0 40 40">
-                                                <use xlink:href="#icon-whitepaper" />
-                                            </svg>
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-9 text-left">
-                                    <a href="#">
-                                        <h4 class="media-heading turq-text">Implementation Benchmarks: Lorem Ipsum Dolor Sit</h4>
-                                        <small class="uppercase arrowed rarr-blue">Get The Whitepaper</small>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+            <div class="col-xs-12">
+                <h4 class="brandblue-text uppercase bold">2017 Calendar of Events</h4>
+                <p>
+                    Here's a tentative list of places you'll be able to spot our crew. For an up-to-date calendar of events,
+                    <a href="https://www.facebook.com/hackShackRacing/events" target="_blank" title="Follow Hack Shack Racing on Facebook">follow us on Facebook</a>
+                    .
+                </p>
                 <br></div>
         </div>
-    </div>
-</div>
-</section>
-
-<!-- Who We Are Section -->
-<section id="WhoWeAre" class="text-left">
-<div class="backgrounded WhoWeAre">
-    <div class="container">
-        <div class="col-md-10">
-            <h1>
-                Experts in
-                <br>standards-based grading.</h1>
-            <h4>
-                JumpRope was founded by teachers who are passionate about standards-based grading. Our software tailors teacher practice to the way students learn. Built around standards-based principles, our gradebook is the most customizable on the market and works in all different learning environments. We’re facilitating a paradigm shift that empowers students, teachers, and entire school districts.
-            </h4>
-            <br>
-            <br>
-            <a class="btn" href="#">Discover Who We Are</a>
+        <div class="row">
+            <!-- month -->
+            <div class="col-xs-12">
+                <h5 class="month">February</h5>
+                <hr class="ltgrey-hr"></div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">Feb 3 - Feb 11</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">
+                    The Ultra 4 Racing King of the Hammers Everyman Challenge (Johnson Valley, CA)
+                </h5>
+            </div>
+            <!-- month -->
+            <div class="col-xs-12">
+                <hr class="ltgrey-hr">
+                <h5 class="month">April</h5>
+                <hr class="ltgrey-hr"></div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">
+                    Line Mountain 4 Wheelers Race @ Rausch Creek Offroad Park (PA)
+                </h5>
+            </div>
+            <!-- month -->
+            <div class="col-xs-12">
+                <hr class="ltgrey-hr">
+                <h5 class="month">May</h5>
+                <hr class="ltgrey-hr"></div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">Field and Forest Season Opener</h5>
+            </div>
+            <!-- month -->
+            <div class="col-xs-12">
+                <hr class="ltgrey-hr">
+                <h5 class="month">June</h5>
+                <hr class="ltgrey-hr"></div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">
+                    Ultimate Offroad Expo @ Meriden Markham Airport (Meriden, CT)
+                </h5>
+            </div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">Middletown Car Cruise @ Main St (Middletown, CT)</h5>
+            </div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">JUN 23 - JUN 25</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">
+                    Ultra 4 Racing Series @ Badlands
+                </h5>
+            </div>            
+            <!-- month -->
+            <div class="col-xs-12">
+                <hr class="ltgrey-hr">
+                <h5 class="month">August</h5>
+                <hr class="ltgrey-hr"></div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">
+                    Operation Enduring Realness (OER) IX @ Rausch Creek Offroad Park
+                </h5>
+            </div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">Aug 11 - Aug 13</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">Ultra 4 Racing Series @ Dirty Turtle Offroad Park</h5>
+            </div>
+            <!-- month -->
+            <div class="col-xs-12">
+                <hr class="ltgrey-hr">
+                <h5 class="month">September</h5>
+                <hr class="ltgrey-hr"></div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">NEA Fall Crawl @ Field and Forest</h5>
+            </div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">Great American Jeep Rally (Ellington, CT)</h5>
+            </div>
+            <!-- month -->
+            <div class="col-xs-12">
+                <hr class="ltgrey-hr">
+                <h5 class="month">October</h5>
+                <hr class="ltgrey-hr"></div>
+            <!-- event -->
+            <div class="col-xs-12 col-sm-3">
+                <h5 class="date">TBD</h5>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <h5 class="title">Taste of Wallingford Jeep Show @ Downtown (Wallingford, CT)</h5>
+            </div>
         </div>
     </div>
 </div>
@@ -188,64 +262,62 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <h4 class="ltturq-text uppercase">From the Blog</h4>
+            <h4 class="brandblue-text uppercase">Meet the Team</h4>
             <br></div>
     </div>
     <div class="row text-xs-center text-sm-center">
-        <article class="blog-home-list col-sm-1 col-md-4">
-            <a href="#"><img src="//placehold.it/300x200" alt=""></a>
+        <article class="blog-home-list col-sm-12 col-md-6">
+            <a href="#">
+                <img src="img/sub/team/JMackiewicz.png" alt=""></a>
             <br>
             <br>
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial"><a href="#">
-                Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i></a>
+            <h5 class="uppercase ltgrey-text margined-top tiny questrial">John Mackiewicz, Driver and Owner<br />"Lifeguard"</h5>
+            <h4 class="questrial">
+                John Mackiewicz is the driver and team owner of Hack Shack Racing. Coming from a background in technology and competitive swimming, John found a new passion in offroad racing to fill the void of his high adrenaline lifestyle. From khakis to carhartts, he's responsible for keeping the team and the jeep, moving forward.
             </h4>
         </article>
-        <article class="blog-home-list col-sm-1 col-md-4">
-            <a href="#"><img src="//placehold.it/300x200" alt=""></a>
+        <article class="blog-home-list col-sm-12 col-md-6">
+            <a href="#">
+                <img src="img/sub/team/JGalica.gif" alt=""></a>
             <br>
             <br>
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial"><a href="#">
-                Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i></a>
-            </h4>
-        </article>        
-        <article class="blog-home-list col-sm-1 col-md-4">
-            <a href="#"><img src="//placehold.it/300x200" alt=""></a>
-            <br>
-            <br>
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">January 4, 2016</h5>
-            <h4 class="questrial"><a href="#">
-                Suspendisse tincidunt sem tristique velit varius, quis tincidunt augue.
-                <i class="arrowed rarr-blue inside"></i></a>
+            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Jonathan Galica, Co-Driver and Racecar Engineer <br />"Backpack"</h5>
+            <h4 class="questrial">
+                Jon Galica, is the coDriver and primary navigator. During the day he's an aerospace engineer, and at night, he puts his skills to use as a custom fabricator and racecar mechanic. Jon is the other half of the "John & Jon" Dynamic Duo - founders of Hack Shack Racing.
             </h4>
         </article>
-    </div>
-</div>
-</section>
+        <div class="col-md-12">
+            <br></div>
+        <article class="blog-home-list col-sm-6 col-md-3">
+            <img src="img/sub/team/CWilliams.png" alt="">
+            <br>
+            <br>
+            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Christopher Williams</h5>
+            <h4 class="questrial">"The Gaptain"</h4>
+        </article>
+        <article class="blog-home-list col-sm-6 col-md-3">
+            <a href="#">
+                <img src="img/sub/team/PRestivo.png" alt=""></a>
+            <br>
+            <br>
+            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Philip Restivo</h5>
+            <h4 class="questrial">Team Painter</h4>
+        </article>
+        <article class="blog-home-list col-sm-6 col-md-3">
+            <img src="img/sub/team/CDauria.png" alt=""> 
+            <br>
+            <br>
+            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Christopher William</h5>
+            <h4 class="questrial">"Dizzy"</h4>
+        </article>
+        <article class="blog-home-list col-sm-6 col-md-3">
+            <img src="img/sub/team/TPepe.png" alt="">
+            <br>
+            <br>
+            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Tim Pepe</h5>
+            <h4 class="questrial">"The Salesman"</h4>
+        </article>
 
-<!-- Home-Logos Section -->
-<section id="logos" class="padded less beige">
-<div class="container">
-    <div class="row text-xs-center text-sm-center">
-        <div class="col-xs-6 col-sm-3 center">
-            <p>
-                <img src="img/sub/Creds-YWLN.jpg" alt=""></p>
-        </div>
-        <div class="col-xs-6 col-sm-3 center">
-            <p>
-                <img src="img/sub/Creds-OutwardBound.jpg" alt=""></p>
-        </div>
-        <div class="col-xs-6 col-sm-3 center">
-            <p>
-                <img src="img/sub/Creds-TFA.jpg" alt=""></p>
-        </div>
-        <div class="col-xs-6 col-sm-3 center">
-            <p>
-                <img src="img/sub/Creds-NYC.jpg" alt=""></p>
-        </div>
     </div>
 </div>
 </section>
