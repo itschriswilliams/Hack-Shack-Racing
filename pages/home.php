@@ -16,8 +16,22 @@
             </div>
         </div>
     </div>
+    <div class="hammers-countdown">
+        <div class="container spec">
+            <div class="row">
+                <div class="col-xs-8 col-sm-8 text-left">
+                    <h3 id="preK" class="questrial white-text nomargin"><span id="countdown"></span> Remaining</h3>
+                    <h3 id="K" style="display: none;" class="questrial white-text nomargin"><a class="questrial white-text" href="http://www.ultra4racing.com/race/9" target="blank">Follow Us Live at King of The Hammers</a></h3>
+                </div>
+                <div class="KOHLogo">
+                    <a href="https://www.facebook.com/events/548557675324807/"><img src="img/sub/KOH-Logo-white.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>    
 </div>
 </section>
+
 
 <!-- Home-Logos Section -->
 <section id="sponsor-logos" class="padded less beige">
@@ -298,7 +312,7 @@
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Philip Restivo</h5>
-            <h4 class="questrial">Team Painter</h4>
+            <h4 class="questrial">"Jenkins"</h4>
         </article>
         <article class="blog-home-list col-sm-6 col-md-3">
             <img src="img/sub/team/CDauria.png" alt=""> 
@@ -308,7 +322,7 @@
             <h4 class="questrial">"Dizzy"</h4>
         </article>
         <article class="blog-home-list col-sm-6 col-md-3">
-            <img src="img/sub/team/TPepe.png" alt="">
+            <img src="img/sub/team/TPepe2.png" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Tim Pepe</h5>

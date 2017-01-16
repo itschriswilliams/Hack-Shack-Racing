@@ -55,7 +55,7 @@ a {
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken($primary,20%);
+        @extend .ltgrey-text;
         cursor: pointer;
     }
 }
@@ -468,7 +468,7 @@ a {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100vh;
     padding: 100px 0;
     text-align: center;
     color: white;
@@ -1027,67 +1027,6 @@ ul.banner-social-buttons {
     }
 }
 
-.team-member {
-    margin-bottom: 6em;
-    .member-pic {
-        margin-bottom: 1em;
-    }
-    .member-name {
-        margin-bottom: .25em;
-    }
-    .member-title {
-        margin-bottom: 1em;
-        @extend .ltgrey-text;
-    }
-    .member-bio {
-        font-size: 1em;
-        @extend .ltgrey-text; 
-        margin-bottom: 1em;       
-    }
-    .member-readmore {
-        font-size: .97em;
-        margin-bottom: 1em;
-        a {
-            @extend .uppercase;
-            @extend .blue-text;
-        }            
-    }
-    .member-social {
-        font-size: .85em;
-        a {
-            float: left;
-            display: inline-block;
-            @extend .ltturq-text;
-            position: relative;
-            margin-left: 3em;
-            &:first-child {
-                margin-left: 1.5em;
-            }
-            &:hover {
-                @extend .turq-text;
-            }
-            &:before {
-                content: '';
-                width: 13px;
-                height: 13px;
-                position: absolute;
-                left: -1.5em;
-                top: 0;
-            }
-            &.lin {
-                &:before {
-                    background: url(../img/svg/LIN.svg) no-repeat;
-                }
-            }
-            &.tw {
-                &:before {
-                    background: url(../img/svg/TW.svg) no-repeat;
-                }
-            }            
-
-        }
-    }
-}
 
 .notebook-signup {
     position: relative;
@@ -1118,173 +1057,7 @@ ul.banner-social-buttons {
     }
 }
 
-// Blog Things //
 
-.post-list {
-    // @extend .margined-top;
-    &.alt {
-        margin-top: 15em;
-
-    }
-}
-
-.post.list-view {
-    @extend .margined-bottom;    
-    &.alt {
-        .postThumb {}
-        .postDate {
-            margin-top: 1em;
-        }
-        .postTitle {
-            a:after {
-                content: '';
-                display: inline-block;
-                background: url(../img/svg/rarr-blue.svg) no-repeat;
-                width: 20px;
-                height: 20px;
-            }
-        }
-    }
-    .post-title {
-        a:hover {
-            color: #00a7c0;
-        }
-    }    
-}
-
-.blog-home-list {
-    h4 {
-        a {
-            color: #666;
-        }
-    }
-}
-.blog-post-detail {
-    .byline {
-        margin-bottom: 2em;
-    }
-    .share {
-        display: block;
-        position: relative;
-        margin-left: 3em;
-        margin-bottom: 1em;
-        &:before {
-            content: '';
-            background-image: url(../img/svg/share.svg);
-            position: absolute;
-            left: -3em;
-            width: 22px;
-            height: 18px;
-
-        }
-    }
-    .post-image {
-        img {}
-        .caption {
-            margin-top: 1em;
-        }
-    }
-    .post-body {
-        p {
-            font-size: 1.05em;
-            line-height: 1.75em;
-            margin-top: 3em;
-            @extend .ltgrey-text;
-            @extend .lato;
-            a {
-                @extend .blue-text;
-                &:hover {
-                    @extend .turq-text;
-                }
-            }
-        }
-    }
-    .post-author {
-        margin: 3em 0;
-        padding: 2em 0;
-        border-top: 1px solid #929292;
-        border-bottom: 1px solid #929292;
-        p {
-            @extend .ltgrey-text;
-        }
-    }
-    .post-navshare {
-        margin-top: 3em;
-        .sharebar {
-            width: 100%;
-            height: 100%;
-            margin-top: 1.5em;
-            padding: 1em;
-            @extend .ltgrey;
-            color: #fff;
-            ul.shareIcons {
-                list-style-type: none;
-                display: block;
-                margin: 0;
-                padding: 0;
-                height: 20px;
-                li {
-                    float: left;
-                    display: inline-block;
-                    &:first-child a {
-                        margin-left: 0;
-                    }                    
-                    a {
-                        display: block;
-                        width: 20px;
-                        height: 20px;
-                        background-repeat: no-repeat;
-                        background-position: center center;
-                        margin-left: 2em;
-                        &.fb {
-                            background-image: url(../img/svg/share-fb.svg);
-                        }
-                        &.tw {
-                            background-image: url(../img/svg/share-tw.svg);
-                        }
-                        &.lin {
-                            background-image: url(../img/svg/share-lin.svg);
-                        }
-                        &.sharePost {
-                            position: relative;
-                            @extend .uppercase;
-                            @extend .white-text;
-                            margin: .25em 0 0 4em;
-                            &:before {
-                                content: '';
-                                width: 20px;
-                                height: 20px;
-                                position: absolute;
-                                left: -2em;
-                                top: 0;
-                                background: url(../img/svg/share-white.svg) no-repeat;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-}
-
-.whitepaper-list {
-    .share {
-        display: block;
-        position: relative;
-        margin-left: 3em;
-        margin-bottom: 2em;
-        &:before {
-            content: '';
-            background-image: url(../img/svg/share.svg);
-            position: absolute;
-            left: -3em;
-            width: 22px;
-            height: 18px;
-
-        }
-    }
-}
 
 .mobile-v-spacer {
     min-height: 1em;
@@ -1414,6 +1187,24 @@ footer {
         color: map-get($colours, "grey") !important;
     }
 
+}
+
+.hammers-countdown {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding-top: 2em;
+    padding-bottom: 2em;    
+    .container {
+        position: relative;
+    }
+    .KOHLogo {
+        position: absolute;
+        right: 0;
+        top: -55px;
+        width: 125px;    
+    }
 }
 
 ::selection {
