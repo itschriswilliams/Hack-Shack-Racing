@@ -1204,6 +1204,12 @@ footer {
         right: 0;
         top: -55px;
         width: 125px;    
+        @media (max-width: 549px) {
+            top: -15px;
+        }
+        @media (min-width: 550px) and (max-width: 1200px) {
+            top: -40px;
+        }
     }
 }
 
