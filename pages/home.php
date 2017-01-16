@@ -267,8 +267,7 @@
     </div>
     <div class="row text-xs-center text-sm-center">
         <article class="blog-home-list col-sm-12 col-md-6">
-            <a href="#">
-                <img src="img/sub/team/JMackiewicz.png" alt=""></a>
+            <img src="img/sub/team/JMackiewicz.png" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">John Mackiewicz, Driver and Owner<br />"Lifeguard"</h5>
@@ -277,8 +276,7 @@
             </h4>
         </article>
         <article class="blog-home-list col-sm-12 col-md-6">
-            <a href="#">
-                <img src="img/sub/team/JGalica.gif" alt=""></a>
+            <img src="img/sub/team/JGalica.gif" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Jonathan Galica, Co-Driver and Racecar Engineer <br />"Backpack"</h5>
@@ -296,8 +294,7 @@
             <h4 class="questrial">"The Gaptain"</h4>
         </article>
         <article class="blog-home-list col-sm-6 col-md-3">
-            <a href="#">
-                <img src="img/sub/team/PRestivo.png" alt=""></a>
+            <img src="img/sub/team/PRestivo.png" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Philip Restivo</h5>

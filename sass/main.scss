@@ -116,12 +116,15 @@ a {
     }
 
     .navbar-brand {
-        width: 400px;
+        width: 350px;
+        height: 32px;
         font-weight: 700;
         svg {
             fill: white;
             -webkit-filter: drop-shadow(2px 2px 20px #666);
             filter: drop-shadow(2px 2px 20px #666);   
+            width: 350px;
+            height: 32px;            
         }
         &:focus {
             outline: none;
@@ -370,6 +373,8 @@ a {
     &.hovered {
         background: #fff;
         .navbar-brand {
+        width: 350px;
+        height: 32px;            
             svg {
                 fill: #58595b;
                 -webkit-filter: none;
