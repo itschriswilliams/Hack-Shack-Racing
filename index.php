@@ -32,10 +32,10 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-
+<?php include_once ('includes/analytics.php'); ?>
 <?php include ('includes/header.php'); ?>
 <?php include ('pages/home.php'); ?>
-<?php include 'includes/footer.php' ?>  
+<?php include ('includes/footer.php') ?>  
 
 
 

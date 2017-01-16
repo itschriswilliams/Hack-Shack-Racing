@@ -96,7 +96,7 @@ a {
     margin-bottom: 0;
     // border-bottom: 1px solid rgba(white, 0.3);
     @extend .questrial;
-    @extend .blue;
+    @extend .brandblue;
     .navbar-header {
         @media (min-width: 768px) and (max-width: 991px) {
             width: 100%;
@@ -586,7 +586,12 @@ a {
         background-image: url(../img/banner/hsr-banner-loners.jpg);
         @extend .white-text;
         @extend .bg-fixed;
-    }       
+    }      
+    &.grit {
+        background-image: url(../img/banner/hsr-banner-grit2.jpg);
+        @extend .white-text;
+        @extend .bg-fixed;
+    }           
     &.partnering {
         background-image: url(../img/banner/Homepage-Partnering.jpg);
         @extend .white-text;
@@ -1402,7 +1407,8 @@ footer {
         font-weight: bold;
     }
     .date {
-        color: map-get($colours, "grey") !important;
+        color: map-get($colours, "brandblue") !important;
+        font-weight: bold;
     }
     .title {
         color: map-get($colours, "grey") !important;

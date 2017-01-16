@@ -8,18 +8,18 @@
                     </div>
                 </div>
                 <div class="row padded-bottom">
-                    <div class="col-xs-5 col-sm-2">
+                    <div class="col-xs-5 col-xs-offset-1 col-sm-2 col-sm-offset-0">
                         <img src="img/template/HSR-Logo-White.svg" alt="">
                     </div>
                     <div class="col-xs-1 visible-xs visible-xs-block">&nbsp;</div>
-                    <div class="col-xs-6 col-sm-2 col-xs-offfset-3 col-sm-offset-1">
+                    <div class="col-xs-4 col-sm-2 col-xs-offfset-3 col-sm-offset-1">
                         <h5 class="white-text uppercase">Get Social</h5>
                         <ul class="footernav">
                             <li><a href="https://www.facebook.com/HackShackRacing/" target="_blank">Facebook</a></li>
                             <li><a href="https://www.instagram.com/HackShackRacing/" target="_blank">Instagram</a></li>                            
                         </ul>
                     </div>
-                    <div class="col-xs-12 mobile-v-spacer"></div>
+                    <div class="col-xs-12 visible-xs"><br /><br /></div>
                     <div class="col-xs-10 col-sm-4 col-xs-offset-2 col-sm-offset-0">
                         <h5 class="white-text uppercase">Get on The List</h5>
                         <p>KOH Updates? Events? Climb aboard the Hack Shack Train.</p>

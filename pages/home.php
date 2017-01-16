@@ -304,7 +304,7 @@
             <img src="img/sub/team/CDauria.png" alt=""> 
             <br>
             <br>
-            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Christopher William</h5>
+            <h5 class="uppercase ltgrey-text margined-top tiny questrial">Christopher D'Auria</h5>
             <h4 class="questrial">"Dizzy"</h4>
         </article>
         <article class="blog-home-list col-sm-6 col-md-3">
@@ -315,6 +315,26 @@
             <h4 class="questrial">"The Salesman"</h4>
         </article>
 
+    </div>
+</div>
+</section>
+
+<!-- Of Grit and Greatness Section -->
+<section id="about" class="text-left">
+<div class="backgrounded grit">
+    <div class="container">
+        <div class="col-md-7">
+            <h1>The Race of a Lifetime</h1>
+            <h4>
+                Hack Shack Racing was featured in the 2016 King of the Hammers Movie, "Of Grit and Greatness." 
+            </h4>
+            <br />
+            <a class="btn white" href="http://www.kohthemovie.com/" target="_blank">Watch the Trailer</a><a style="margin-left: 10px;" class="white-text" href="http://genright.com/of-grit-and-greatness-2016-king-of-the-hammers-dvd/" target="_blank">Get the DVD</a>
+        </div>
+        <div class="col-xs-12 visible-xs"><br /><br /></div>
+        <div class="col-md-5">
+            <img src="img/sub/gritandgreatness-web.png" alt="">
+        </div>
     </div>
 </div>
 </section>
