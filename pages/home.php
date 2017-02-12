@@ -20,8 +20,9 @@
         <div class="container spec">
             <div class="row">
                 <div class="col-xs-8 col-sm-8 text-left">
-                    <h3 id="preK" class="questrial white-text nomargin"><span id="countdown"></span> Remaining</h3>
-                    <h3 id="K" style="display: none;" class="questrial white-text nomargin"><a class="questrial white-text" href="http://www.ultra4racing.com/race/9" target="blank">Follow Us Live at King of The Hammers</a></h3>
+                    <!-- <h3 id="preK" class="questrial white-text nomargin"><span id="countdown"></span> Remaining</h3>
+                    <h3 id="K" style="display: none;" class="questrial white-text nomargin"><a class="questrial white-text" href="http://www.ultra4racing.com/live" target="blank">Follow Us Live at King of The Hammers</a></h3> -->
+                    <h3 class="questrial white-text nomargin"><span id="countdown"></span>Official Finishers, 4th Place, 4600 Stock Class</h3>
                 </div>
                 <div class="KOHLogo">
                     <a href="https://www.facebook.com/events/548557675324807/"><img src="img/sub/KOH-Logo-white.png" alt=""></a>
@@ -155,7 +156,9 @@
             </div>
             <div class="col-xs-12 col-sm-9">
                 <h5 class="title">
-                    The Ultra 4 Racing King of the Hammers Everyman Challenge (Johnson Valley, CA)
+                    The Ultra 4 NITTO King of the Hammers Everyman Challenge (Johnson Valley, CA)
+                    <br>
+                    <span class="orange-text bold">Official Finishers, 4th Place, 4600 Stock Class </span>
                 </h5>
             </div>
             <!-- month -->
@@ -290,7 +293,7 @@
             </h4>
         </article>
         <article class="blog-home-list col-sm-12 col-md-6">
-            <img src="img/sub/team/JGalica.gif" alt="">
+            <img src="img/sub/team/JGalica2.jpg" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Jonathan Galica, Co-Driver and Racecar Engineer <br />"Backpack"</h5>

@@ -480,10 +480,10 @@ a {
     background-repeat: no-repeat;
     &.home {
         background-image: url(../img/banner/hsr-bannerMain.jpg);
-        background-position: top right;
-        @media(max-width:500px) {
-            background-position: -810px 35px;
-        }
+        background-position: top center;
+        // @media(max-width:500px) {
+        //     background-position: -810px 35px;
+        // }
     }
     &.classroom-solutions {
         background-image: url(../img/banner/ClassroomSolutions-Intro.jpg);        
