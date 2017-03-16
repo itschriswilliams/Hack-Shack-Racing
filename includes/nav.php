@@ -14,6 +14,9 @@
             <a class="page-scroll" href="index.php?page=blog">Support Us</a>
         </li>      -->   
         <li>
+            <a target="_blank" href="http://shop.hackshackracing.com">Shop</a>
+        </li>    
+        <li>
             <a class="page-scroll" href="#footer">Contact</a>
         </li>              
     </ul>
