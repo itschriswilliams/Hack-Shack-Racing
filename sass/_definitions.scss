@@ -1,5 +1,31 @@
 // Coustom Styles
 
+
+/* ENRISE FONTS */
+@font-face {
+    font-family: 'GeogrotesqueRegular';
+    src: url('../fonts/geogrotesque/geogrotesque-regular-webfont.eot');
+    src: url('../fonts/geogrotesque/geogrotesque-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geogrotesque/geogrotesque-regular-webfont.woff') format('woff'), url('../fonts/geogrotesque/geogrotesque-regular-webfont.ttf') format('truetype'), url('../fonts/geogrotesque/geogrotesque-regular-webfont.svg#GeogrotesqueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeogrotesqueMedium';
+    src: url('../fonts/geogrotesque/geogrotesque-medium-webfont.eot');
+    src: url('../fonts/geogrotesque/geogrotesque-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geogrotesque/geogrotesque-medium-webfont.woff') format('woff'), url('../fonts/geogrotesque/geogrotesque-medium-webfont.ttf') format('truetype'), url('../fonts/geogrotesque/geogrotesque-medium-webfont.svg#GeogrotesqueMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeogrotesqueSemibold';
+    src: url('../fonts/geogrotesque/geogrotesque-semibold-webfont.eot');
+    src: url('../fonts/geogrotesque/geogrotesque-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/geogrotesque/geogrotesque-semibold-webfont.woff') format('woff'), url('../fonts/geogrotesque/geogrotesque-semibold-webfont.ttf') format('truetype'), url('../fonts/geogrotesque/geogrotesque-semibold-webfont.svg#GeogrotesqueSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Visibility */
 .hide, .Hide, .d-n {
 	display: none !important;

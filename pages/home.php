@@ -3,12 +3,12 @@
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 text-left">
+                <div class="col-md-12 text-center">
                     <br>
                     <br>
                     <br>
-                    <h1></h1>
-                    <h3 class="lato"></h3>
+                    <!-- <h1 class="geoBold uppercase" style="font-size: 8em;">Raising the Bar</h1> -->
+                    <!-- <h3 class="lato"></h3> -->
 
                     <!--      <a href="#about" class="btn btn-circle page-scroll"> <i class="fa fa-angle-double-down animated"></i>
                 </a>
@@ -19,13 +19,13 @@
     <div class="hammers-countdown">
         <div class="container spec">
             <div class="row">
-                <div class="col-xs-8 col-sm-8 text-left">
+                <div class="col-xs-9 col-sm-8 text-left">
                     <!-- <h3 id="preK" class="questrial white-text nomargin"><span id="countdown"></span> Remaining</h3>
                     <h3 id="K" style="display: none;" class="questrial white-text nomargin"><a class="questrial white-text" href="http://www.ultra4racing.com/live" target="blank">Follow Us Live at King of The Hammers</a></h3> -->
-                    <h3 class="questrial white-text nomargin"><span id="countdown"></span>Official Finishers, 4th Place, 4600 Stock Class</h3>
+                    <h3 class="questrial white-text nomargin"><span id="countdown"></span><a href="https://www.facebook.com/events/257186384769607" target="_blank" class="white-text">Next Race : 2017 KMC Battle in BlueGrass - Bedford, KY</a></h3>
                 </div>
                 <div class="KOHLogo">
-                    <a href="https://www.facebook.com/events/548557675324807/"><img src="img/sub/KOH-Logo-white.png" alt=""></a>
+                    <a href="https://www.facebook.com/events/257186384769607/"><img src="img/sub/2017_DirtyTurtle.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -74,12 +74,16 @@
         </div>
         <div class="sponsor small col-xs-4 col-sm-2 center">
             <p>
-                <img class="align-middle" src="img/sub/sponsors/CustomSplice.png" alt=""></p>
+                <img class="align-middle" src="img/sub/sponsors/Radflo.png" alt=""></p>
         </div>
         <div class="sponsor small col-xs-4 col-sm-2 center">
             <p>
-                <img class="align-middle" src="img/sub/sponsors/RockKrawler.png" alt=""></p>
+                <img class="align-middle" src="img/sub/sponsors/CustomSplice.png" alt=""></p>
         </div>
+<!--         <div class="sponsor small col-xs-4 col-sm-2 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/RockKrawler.png" alt=""></p>
+        </div> -->
         <div class="sponsor small col-xs-4 col-sm-2 center">
             <p>
                 <img class="align-middle" src="img/sub/sponsors/Factor55.png" alt=""></p>

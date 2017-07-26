@@ -40,7 +40,8 @@ $colours: (
 
 $fonts: (
   "questrial": 'Questrial',
-  "lato": 'Lato'
+  "lato": 'Lato',
+  "geoBold": 'GeogrotesqueSemibold'  
   );
 @each $font, $font_value in $fonts {
   .#{$font} {
