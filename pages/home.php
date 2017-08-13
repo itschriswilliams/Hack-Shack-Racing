@@ -22,7 +22,7 @@
                 <div class="col-xs-9 col-sm-8 text-left">
                     <!-- <h3 id="preK" class="questrial white-text nomargin"><span id="countdown"></span> Remaining</h3>
                     <h3 id="K" style="display: none;" class="questrial white-text nomargin"><a class="questrial white-text" href="http://www.ultra4racing.com/live" target="blank">Follow Us Live at King of The Hammers</a></h3> -->
-                    <h3 class="questrial white-text nomargin"><span id="countdown"></span><a href="https://www.facebook.com/events/257186384769607" target="_blank" class="white-text">Next Race : 2017 KMC Battle in BlueGrass - Bedford, KY</a></h3>
+                    <h3 class="questrial white-text nomargin"><span id="countdown"></span><a href="https://www.facebook.com/events/257186384769607" target="_blank" class="white-text">First in Class : 2017 KMC Battle in BlueGrass - Bedford, KY</a></h3>
                 </div>
                 <div class="KOHLogo">
                     <a href="https://www.facebook.com/events/257186384769607/"><img src="img/sub/2017_DirtyTurtle.png" alt=""></a>
@@ -240,7 +240,10 @@
                 <h5 class="date">Aug 11 - Aug 13</h5>
             </div>
             <div class="col-xs-12 col-sm-9">
-                <h5 class="title">Ultra 4 Racing Series @ Dirty Turtle Offroad Park</h5>
+                <h5 class="title">2017 KMC Wheels Battle in Bluegrass Ultra 4 Racing Series @ Dirty Turtle Offroad Park
+                    <br>
+                    <span class="orange-text bold">First Place, 4600 Stock Class</span>
+                </h5>
             </div>
             <!-- month -->
             <div class="col-xs-12">
@@ -271,7 +274,7 @@
                 <h5 class="date">TBD</h5>
             </div>
             <div class="col-xs-12 col-sm-9">
-                <h5 class="title">Taste of Wallingford Jeep Show @ Downtown (Wallingford, CT)</h5>
+                <h5 class="title">Celebrate Wallingford Jeep Show @ Downtown (Wallingford, CT)</h5>
             </div>
         </div>
     </div>
