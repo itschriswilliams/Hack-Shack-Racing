@@ -20,12 +20,12 @@
         <div class="container spec">
             <div class="row">
                 <div class="col-xs-9 col-sm-8 text-left">
-                    <!-- <h3 id="preK" class="questrial white-text nomargin"><span id="countdown"></span> Remaining</h3>
-                    <h3 id="K" style="display: none;" class="questrial white-text nomargin"><a class="questrial white-text" href="http://www.ultra4racing.com/live" target="blank">Follow Us Live at King of The Hammers</a></h3> -->
-                    <h3 class="questrial white-text nomargin"><span id="countdown"></span><a href="https://www.facebook.com/events/257186384769607" target="_blank" class="white-text">First in Class : 2017 KMC Battle in BlueGrass - Bedford, KY</a></h3>
+                    <h3 id="preK" class="questrial white-text nomargin"><span id="countdown"></span> Remaining to King of the Hammers</h3>
+                    <h3 id="K" style="display: none;" class="questrial white-text nomargin"><a class="questrial white-text" href="http://www.ultra4racing.com/live" target="blank">Follow Us Live at King of The Hammers</a></h3>
+                    <!-- <h3 class="questrial white-text nomargin"><span id="countdown"></span><a href="https://ultra4racing.com/race/17" target="_blank" class="white-text">On the Journey to Hammers</a></h3> -->
                 </div>
                 <div class="KOHLogo">
-                    <a href="https://www.facebook.com/events/257186384769607/"><img src="img/sub/2017_DirtyTurtle.png" alt=""></a>
+                    <a href="https://ultra4racing.com/race/17"><img src="img/sub/KOH-Logo-white.png" alt=""></a>
                 </div>
             </div>
         </div>

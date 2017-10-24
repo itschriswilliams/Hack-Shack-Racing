@@ -120,7 +120,7 @@ a {
         max-height: 32px;
         font-weight: 700;
         svg {
-            fill: #58595b;
+            fill: #ffffff;
             // -webkit-filter: drop-shadow(2px 2px 20px #666);
             // filter: drop-shadow(2px 2px 20px #666);   
             width: 300px;
@@ -140,7 +140,7 @@ a {
         }        
     }
     a {
-        color: #58595b;
+        color: #ffffff;
     }
     .nav {
         & > li {
@@ -1205,8 +1205,8 @@ footer {
     .KOHLogo {
         position: absolute;
         right: 0;
-        top: -55px;
-        width: 225px;    
+        bottom: -25px;
+        width: 165px;
         @media (max-width: 549px) {
             top: 5px;
             width: 175px;

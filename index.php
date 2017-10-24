@@ -57,7 +57,7 @@
     <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
     <script>
-var end = new Date('02/03/2017 9:00 AM');
+var end = new Date('02/02/2018 9:00 AM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -79,10 +79,17 @@ var end = new Date('02/03/2017 9:00 AM');
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById('countdown').innerHTML = days + ' Days, ';
-        document.getElementById('countdown').innerHTML += hours + ' hours, ';
-        document.getElementById('countdown').innerHTML += minutes + ' minutes, and ';
-        document.getElementById('countdown').innerHTML += seconds + ' seconds';
+        if (days > 10) {
+            document.getElementById('countdown').innerHTML = days + ' Days ';
+            return;
+        }
+        if (days <= 10) {
+            document.getElementById('countdown').innerHTML = days + ' Days, ';
+            document.getElementById('countdown').innerHTML += hours + ' hours, ';
+            document.getElementById('countdown').innerHTML += minutes + ' minutes, and ';
+            document.getElementById('countdown').innerHTML += seconds + ' seconds';
+            return;
+        }
     }
 
     timer = setInterval(showRemaining, 1000);        
