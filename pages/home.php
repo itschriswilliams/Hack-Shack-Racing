@@ -90,7 +90,7 @@
         </div>
         <div class="sponsor small col-xs-4 col-sm-2 center">
             <p>
-                <img class="align-middle" src="img/sub/sponsors/TomWoods.png" alt=""></p>
+                <img class="align-middle" src="img/sub/sponsors/TomWoods2.png" alt=""></p>
         </div>
         <div class="sponsor small col-xs-4 col-sm-2 center">
             <p>
