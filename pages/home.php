@@ -300,7 +300,7 @@
             </h4>
         </article>
         <article class="blog-home-list col-sm-12 col-md-6">
-            <img src="img/sub/team/JGalica2.jpg" alt="">
+            <img src="img/sub/team/JGalica6.jpg" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Jonathan Galica, Co-Driver and Racecar Engineer <br />"Backpack"</h5>
@@ -310,29 +310,29 @@
         </article>
         <div class="col-md-12">
             <br></div>
-        <article class="blog-home-list col-sm-6 col-md-3">
+        <article class="blog-home-list col-sm-6 col-md-4">
             <img src="img/sub/team/CWilliams.png" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Christopher Williams</h5>
             <h4 class="questrial">"The Gaptain"</h4>
         </article>
-        <article class="blog-home-list col-sm-6 col-md-3">
-            <img src="img/sub/team/PRestivo.png" alt="">
+        <article class="blog-home-list col-sm-6 col-md-4">
+            <img src="img/sub/team/PRestivo2.png" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Philip Restivo</h5>
             <h4 class="questrial">"Jenkins"</h4>
         </article>
-        <article class="blog-home-list col-sm-6 col-md-3">
+        <!-- <article class="blog-home-list col-sm-6 col-md-3">
             <img src="img/sub/team/CDauria.png" alt=""> 
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Christopher D'Auria</h5>
             <h4 class="questrial">"Dizzy"</h4>
-        </article>
-        <article class="blog-home-list col-sm-6 col-md-3">
-            <img src="img/sub/team/TPepe2.png" alt="">
+        </article> -->
+        <article class="blog-home-list col-sm-6 col-md-4">
+            <img src="img/sub/team/TPepe3.png" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Tim Pepe</h5>
