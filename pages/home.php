@@ -300,7 +300,7 @@
             </h4>
         </article>
         <article class="blog-home-list col-sm-12 col-md-6">
-            <img src="img/sub/team/JGalica6.jpg" alt="">
+            <img src="img/sub/team/JGalica7.jpg" alt="">
             <br>
             <br>
             <h5 class="uppercase ltgrey-text margined-top tiny questrial">Jonathan Galica, Co-Driver and Racecar Engineer <br />"Backpack"</h5>
