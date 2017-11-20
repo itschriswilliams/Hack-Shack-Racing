@@ -102,7 +102,7 @@
         </div>
         <div class="sponsor small col-xs-4 col-sm-4 center">
             <p>
-                <img class="align-middle" src="img/sub/sponsors/Teraflex.png" alt=""></p>
+                <img class="align-middle" src="img/sub/sponsors/FlyinRyan.png" alt=""></p>
         </div>
         <div class="sponsor small col-xs-4 col-sm-2 center">
             <p>
