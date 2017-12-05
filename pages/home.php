@@ -48,15 +48,15 @@
             <p>
                 <img class="align-middle" src="img/sub/sponsors/HeavyMetalConcepts.png" alt=""></p>
         </div>
+        <div class="sponsor col-xs-6 col-sm-4 center">
+            <p>
+                <img class="align-middle" src="img/sub/sponsors/Falken.png" alt=""></p>
+        </div>
         <div class="sponsor col-xs-6 col-sm-3 center">
             <p>
                 <img class="align-middle" src="img/sub/sponsors/Raceline.png" alt=""></p>
         </div>
-        <div class="sponsor col-xs-6 col-sm-3 center">
-            <p>
-                <img class="align-middle" src="img/sub/sponsors/Nitto.png" alt=""></p>
-        </div>
-        <div class="sponsor col-xs-6 col-sm-3 center">
+        <div class="sponsor col-xs-6 col-sm-2 center">
             <p>
                 <img class="align-middle" src="img/sub/sponsors/ECGS.png" alt=""></p>
         </div>
@@ -88,7 +88,7 @@
             <p>
                 <img class="align-middle" src="img/sub/sponsors/Factor55.png" alt=""></p>
         </div>
-        <div class="sponsor small col-xs-4 col-sm-2 center">
+        <div class="sponsor small col-xs-4 col-sm-3 center">
             <p>
                 <img class="align-middle" src="img/sub/sponsors/TomWoods2.png" alt=""></p>
         </div>
@@ -100,7 +100,7 @@
             <p>
                 <img class="align-middle" src="img/sub/sponsors/Clayton.png" alt=""></p>
         </div>
-        <div class="sponsor small col-xs-4 col-sm-4 center">
+        <div class="sponsor small col-xs-4 col-sm-3 center">
             <p>
                 <img class="align-middle" src="img/sub/sponsors/FlyinRyan.png" alt=""></p>
         </div>
