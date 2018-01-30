@@ -84,10 +84,10 @@ var end = new Date('02/02/2018 9:00 AM');
             return;
         }
         if (days <= 10) {
-            document.getElementById('countdown').innerHTML = days + ' Days, ';
-            document.getElementById('countdown').innerHTML += hours + ' hours, ';
-            document.getElementById('countdown').innerHTML += minutes + ' minutes, and ';
-            document.getElementById('countdown').innerHTML += seconds + ' seconds';
+            document.getElementById('countdown').innerHTML = days + ' Days ';
+            // document.getElementById('countdown').innerHTML += hours + ' hours, ';
+            // document.getElementById('countdown').innerHTML += minutes + ' minutes, and ';
+            // document.getElementById('countdown').innerHTML += seconds + ' seconds';
             return;
         }
     }

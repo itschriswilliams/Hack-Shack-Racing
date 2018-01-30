@@ -1,5 +1,5 @@
 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav v2">
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
         <li class="cs">
             <a class="page-scroll" href="#about">Who We Are</a>
